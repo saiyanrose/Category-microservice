@@ -21,7 +21,7 @@ import com.rollingstone.models.Category;
 import com.rollingstone.service.CategoryService;
 
 @RestController
-@RequestMapping("/category")
+@RequestMapping("/api/category/")
 public class CategoryController extends AbstractController{
 
 	@Autowired
